@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+/* * {
+  padding: 0;
+  margin: 0;
+} */
+
+body {
+  background-color: rgb(247, 222, 197);
+  color: rgb(53, 9, 9);
+
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Raleway", sans-serif;
+
+  /*font: normal 16px "Raleway", sans-serif;*/
+
+  /*font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;*/
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+}
+
+a:visited {
+  color: rgb(141, 141, 141);
+}
+
+.ava {
+  width: 300px;
+  border-radius: 18px;
+  box-shadow: 6px 5px 15px rgb(48, 35, 35);
+}
+
+.avainfo {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+  .avainfo {
+    display: block;
+    text-align: center;
+  }
+}
+
+.avainfo p {
+  color: rgb(119, 48, 31);
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+  /* text-transform: uppercase; */
+  /* letter-spacing: 5px; */
+  /* word-spacing: 15px; */
+}
+
+/* BOX model */
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+/* .about {
+  background: rgba(16, 163, 151, 0.63);
+  /* padding: 15px; */
+/* padding: 15px 30px; */
+/* padding: 15px 25px 35px 40px; */
+/* padding-top: 15px;
+  padding-right: 25px;
+  padding-bottom: 35px;
+  padding-left: 40px;
+  border: 5px solid rgb(130, 20, 220);
+  border-bottom-style: dotted;
+  border-top-width: 10px;
+  border-right-color: black;
+  margin: 20px;
+} */
+
+/* .box-model > div {
+  float: left;
+  background: black;
+  height: 200px;
+  border: 3px solid blue;
+  width: 25%;
+  box-sizing: border-box;
+} */
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.bg-col1 {
+  background: rgb(69, 214, 166);
+}
+
+.bg-col2 {
+  background: rgb(127, 236, 255);
+}
+
+.bg-col3 {
+  background: rgb(178, 169, 219);
+}
+
+.list {
+  padding: 0 20px;
+}
+
+.list li {
+  color: rgb(77, 48, 16);
+  margin-bottom: 10px;
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: rgb(225, 65, 140);
+}
+
+.link-list {
+  list-style: none;
+  padding: 0;
+}
+.link-list li {
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgb(177, 126, 177);
+  padding-bottom: 5px;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.form-g label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  color: darkblue;
+  padding-bottom: 5px;
+}
+
+.form-g input,
+.form-g textarea {
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  background: transparent;
+  border-bottom: 1px solid rgb(99, 97, 26);
+  color: black;
+  padding: 15px 0px 10px;
+  margin-bottom: 15px;
+  outline: none;
+  font-family: inherit;
+}
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+.row > .form-g {
+  width: 50%;
+}
+
+.row > .form-g:first-child {
+  margin-right: 20px;
+}
+
+.ava-txt {
+  margin-left: 40px;
+}
+
+.ava-txt h4 {
+  margin-bottom: 10px;
+}
+
+.btn {
+  border-color: rgb(12, 46, 110);
+  border-radius: 7px;
+  background: rgb(12, 46, 110);
+  color: rgb(255, 255, 255);
+  padding: 15px 20px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  border-color: brown;
+  opacity: 0.9;
+}
+/* .table tr:nth-child(even) {
+  background: cornflowerblue;
+} */
+
+/* Position */
+/* 
+.position {
+  position: relative;
+  margin-top: 40px;
+  padding: 20px;
+  border: solid black;
+  height: 300px;
+}
+
+.box {
+  position: fixed;
+  border-radius: 50%;
+  bottom: 40px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background: yellowgreen;
+} */
